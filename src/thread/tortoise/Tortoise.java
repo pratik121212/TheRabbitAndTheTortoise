@@ -11,5 +11,13 @@ public class Tortoise extends Thread{
     public Thread getTortoise(){
         return tortoise;
     }
+    @Override
+    public void run(){
+
+
+        for (int index = 0; index < MILESTONES; index++) {
+
+        }
+    }
 
 }
